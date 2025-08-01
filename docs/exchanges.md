@@ -407,6 +407,10 @@ If your account is required to use an operatorId, you can set it in the configur
 
 Bitvavo expects the `operatorId` to be an integer.
 
+## Coinbase
+
+Coinbase uses the Advanced Trade API. Make sure your API keys have trading permissions enabled.
+
 ## All exchanges
 
 Should you experience constant errors with Nonce (like `InvalidNonce`), it is best to regenerate the API keys. Resetting Nonce is difficult and it's usually easier to regenerate the API keys.

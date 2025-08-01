@@ -5,7 +5,9 @@ config*.json
 *.sqlite-wal
 logfile.txt
 user_data/*
+!user_data/strategies/
 !user_data/strategy/sample_strategy.py
+!user_data/strategies/SmaCrossStrategy.py
 !user_data/notebooks
 !user_data/models
 !user_data/freqaimodels
@@ -114,5 +116,6 @@ target/
 !config_examples/config_full.example.json
 !config_examples/config_kraken.example.json
 !config_examples/config_freqai.example.json
+!config_examples/config_coinbase.example.json
 
 docker-compose-*.yml

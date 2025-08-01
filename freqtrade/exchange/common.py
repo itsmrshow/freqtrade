@@ -62,6 +62,7 @@ SUPPORTED_EXCHANGES = [
     "gate",
     "htx",
     "hyperliquid",
+    "coinbase",
     "kraken",
     "okx",
 ]
