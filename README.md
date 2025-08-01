@@ -35,6 +35,7 @@ Please read the [exchange specific notes](docs/exchanges.md) to learn about even
 - [X] [HTX](https://www.htx.com/)
 - [X] [Hyperliquid](https://hyperliquid.xyz/) (A decentralized exchange, or DEX)
 - [X] [Kraken](https://kraken.com/)
+- [X] [Coinbase](https://www.coinbase.com/)
 - [X] [OKX](https://okx.com/)
 - [X] [MyOKX](https://okx.com/) (OKX EEA)
 - [ ] [potentially many others](https://github.com/ccxt/ccxt/). _(We cannot guarantee they will work)_
@@ -79,9 +80,9 @@ Please find the complete documentation on the [freqtrade website](https://www.fr
 
 ## Quick start
 
+This repository is streamlined for Docker usage.
 Please refer to the [Docker Quickstart documentation](https://www.freqtrade.io/en/stable/docker_quickstart/) on how to get started quickly.
-
-For further (native) installation methods, please refer to the [Installation documentation page](https://www.freqtrade.io/en/stable/installation/).
+An example strategy called `SmaCrossStrategy` is included in `user_data/strategies` to help you get started immediately.
 
 ## Basic Usage
 

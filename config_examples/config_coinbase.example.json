@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schema.freqtrade.io/schema.json",
+    "max_open_trades": 3,
+    "stake_currency": "USD",
+    "stake_amount": 30,
+    "tradable_balance_ratio": 0.99,
+    "fiat_display_currency": "USD",
+    "timeframe": "5m",
+    "dry_run": true,
+    "exchange": {
+        "name": "coinbase",
+        "key": "your_exchange_key",
+        "secret": "your_exchange_secret",
+        "ccxt_config": {},
+        "ccxt_async_config": {},
+        "pair_whitelist": ["BTC/USD", "ETH/USD"],
+        "pair_blacklist": ["BEAR/.*"],
+    },
+    "pairlists": [{"method": "StaticPairList"}],
+    "telegram": {
+        "enabled": false,
+        "token": "your_telegram_token",
+        "chat_id": "your_telegram_chat_id",
+    },
+    "bot_name": "freqtrade",
+}
